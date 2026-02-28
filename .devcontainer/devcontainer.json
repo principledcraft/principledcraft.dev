@@ -1,5 +1,5 @@
 {
-  "image": "mcr.microsoft.com/devcontainers/go:1",
+  "image": "golang:1.26-bookworm",
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
       "extended": true,
@@ -13,11 +13,18 @@
         "mhutchie.git-graph",
         "esbenp.prettier-vscode",
         "tamasfe.even-better-toml",
-        "budparr.language-hugo-vscode"
+        "budparr.language-hugo-vscode",
+        "anthropic.claude-code"
       ]
     }
   },
   "forwardPorts": [
     1313
-  ]
+  ],
+  "remoteEnv": {
+    "GIT_AUTHOR_NAME": "PrincipledCraft",
+    "GIT_AUTHOR_EMAIL": "principledcraft@proton.me",
+    "GIT_COMMITTER_NAME": "PrincipledCraft",
+    "GIT_COMMITTER_EMAIL": "principledcraft@proton.me"
+  }
 }
