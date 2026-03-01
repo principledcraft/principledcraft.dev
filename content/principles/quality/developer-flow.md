@@ -38,6 +38,14 @@ This applies at a larger scale too. Setting up a development environment should 
 
 Automated formatting removes entire categories of code review discussion. Automated linting catches common mistakes before anyone has to point them out. The goal is to spend human attention on things that actually require human thought, like design decisions and understanding what users need.
 
+## Let developers choose their tools
+
+Teams need to align on the tech stack, testing frameworks, and CI pipeline. Outside those shared decisions, let developers pick their own editor, terminal, OS, and whatever else helps them work.
+
+Someone fluent in Vim should not have to use VS Code because the setup guide assumes it. Someone comfortable on Linux should not have to switch to macOS because that is what everyone else happens to run. The cost of supporting multiple environments is real, but it is usually small, especially when local setup is already automated. Forcing people into unfamiliar tooling costs more in the long run.
+
+If supporting a particular setup starts creating real maintenance work for others, that is worth talking about. Standardise what affects the whole team. Leave the rest to the individual.
+
 ## Complexity slows everything down
 
 This is where developer flow connects back to simplicity. A complex architecture does not just make code harder to understand. It makes the entire development loop slower.
