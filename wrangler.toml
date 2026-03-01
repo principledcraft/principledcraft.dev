@@ -1,6 +1,11 @@
 name = "principledcraft-dev"
 compatibility_date = "2026-03-01"
 
+routes = [
+  { pattern = "principledcraft.dev", custom_domain = true },
+  { pattern = "www.principledcraft.dev", custom_domain = true }
+]
+
 [build]
 command = "chmod a+x build.sh && ./build.sh"
 
