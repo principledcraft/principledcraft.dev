@@ -99,6 +99,5 @@ The pattern isn't all-or-nothing. Any logic you can pull into the core is logic 
 
 [Scott Wlaschin](https://fsharpforfunandprofit.com/)'s talk is where I first learned about this pattern, and it remains one of the best walkthroughs of it in practice.
 
-&nbsp;
-
+<br/>
 {{< youtube P1vES9AgfC4 >}}
