@@ -51,3 +51,9 @@ Microservices solve real problems for large organisations with many teams. They 
 [Dan McKinley](https://mcfunley.com/) calls this [choosing boring technology](https://mcfunley.com/choose-boring-technology). Every team has a limited capacity for adopting new things. Spend that capacity on the problems that are unique to your business, not on replacing proven tools with fashionable ones.
 
 The worst version of this is résumé-driven development: choosing technologies because they look good on a CV rather than because they are right for the project. The users and the team that maintains the code after you leave pay the price for that choice.
+
+## Why simplicity is worth the effort
+
+[CodeMunk](https://www.youtube.com/@codemunk) gives a nice overview of why writing simple code is harder than it looks, and why it pays off.
+
+{{< youtube xnrHnnfcdkA >}}
