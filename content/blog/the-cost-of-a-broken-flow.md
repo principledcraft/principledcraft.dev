@@ -13,4 +13,4 @@ It made me reconnect with my appreciation for good flow. A good flow means it's 
 
 I think a lot of developers see this kind of work as secondary, something you do when you have spare time. But it's an enabler. Building and maintaining the processes around the code is just as much part of the job as writing the code itself. It can require complex infrastructure, and in my experience that investment pays for itself quickly. Even so, [simplicity](/principles/quality/simplicity) matters. Infrastructure that's a pain to use and update becomes its own bottleneck.
 
-An hour spent improving developer flow pays back many times over in unbroken concentration. It's one of the most undervalued investments a team can make.
+An hour spent improving [developer flow](/principles/quality/developer-flow) pays back many times over in unbroken concentration. It's one of the most undervalued investments a team can make.

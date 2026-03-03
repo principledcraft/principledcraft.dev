@@ -42,6 +42,8 @@ This is why "just one more feature" or "just one more abstraction" is dangerous.
 
 The way to fight this is not heroic cleanup efforts. It is constant vigilance: questioning whether each new addition is worth the complexity it brings, and regularly asking whether existing complexity is still earning its keep.
 
+Complexity does not just affect the code. It affects the entire [developer flow](/principles/quality/developer-flow). A monolith with a simple build compiles in seconds. A microservices architecture requires orchestrating multiple services just to test a single change locally. When evaluating whether to introduce something new, consider what it does to the daily experience of the developers who will live with it.
+
 ## Avoid hype, analyse tradeoffs
 
 Simplicity also means resisting the pull of trends. Technologies and patterns come with tradeoffs, and your job as an engineer is to evaluate those tradeoffs for your specific context, not to adopt whatever is popular.
