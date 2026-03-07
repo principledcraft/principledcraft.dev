@@ -58,6 +58,13 @@ draft: false
 - Link to related principle pages on the site where relevant (e.g. `/principles/quality/simplicity`)
 - When mentioning a person by name, link to their Wikipedia page or personal website. Ask the user to verify the link before publishing
 - Never use em dashes
+- For blockquotes with attribution, use the Hextra styled format:
+  ```markdown
+  > Quote text here.<br>
+  > — <cite>Author Name[^1]</cite>
+
+  [^1]: Source description with optional [link](url).
+  ```
 - Generate the slug from the title (lowercase, hyphens, no special characters)
 
 ## Step 4: Humanize

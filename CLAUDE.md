@@ -54,6 +54,7 @@ Menu structure is defined in `hugo.yaml`. "Principles" links to `/principles`, a
 - Keep examples short and focused: one concept per example, ideally under ~20 lines
 - Use realistic domain names (e.g. `calculate_discount`, `send_notification`), not `foo`/`bar`
 - Use Hextra's `{{< tabs >}}` shortcode for before/after comparisons ("Before" and "After" tabs)
+- Embed YouTube videos with Hugo's built-in shortcode: `{{< youtube VIDEO_ID >}}`
 - Only add inline comments when the code alone isn't enough
 - Include type hints only when they aid readability, not everywhere
 - Stick to standard library or well-known packages (no obscure dependencies)
