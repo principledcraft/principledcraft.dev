@@ -6,6 +6,7 @@ authors:
   - name: PrincipledCraft
 draft: false
 toc: false
+breadcrumbs: false
 ---
 
 {{< summary >}}
