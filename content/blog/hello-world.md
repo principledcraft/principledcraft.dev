@@ -5,6 +5,7 @@ summary: The principles behind maintainable software are well-documented, but sc
 authors:
   - name: PrincipledCraft
 draft: false
+toc: false
 ---
 
 {{< summary >}}

@@ -46,6 +46,7 @@ summary: {2-3 sentence hook that draws the reader in, not a neutral abstract}
 authors:
   - name: PrincipledCraft
 draft: false
+toc: false
 ---
 
 {{</* summary */>}}
@@ -57,7 +58,7 @@ The `{{</* summary */>}}` shortcode must always appear immediately after the fro
 
 - Write in first person, matching the personal and reflective tone of the existing blog
 - Keep paragraphs short (3-5 sentences)
-- Do not use headings or subheadings unless the post genuinely needs them
+- Add `###` subheadings to break up the content, especially as posts get longer. Use short, evocative headings (not generic labels). Even shorter posts benefit from one or two headings for scannability and SEO. Skip headings only if the post is very short (under ~150 words)
 - Do not use bullet lists; write in prose
 - Link to related principle pages on the site where relevant (e.g. `/principles/quality/simplicity`)
 - When mentioning a person by name, link to their Wikipedia page or personal website. Ask the user to verify the link before publishing
