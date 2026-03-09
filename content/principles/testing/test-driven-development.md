@@ -1,5 +1,6 @@
 ---
 title: Test-driven development
+description: Write the test first, watch it fail, make it pass, then refactor. The red-green-refactor cycle and when TDD helps most.
 type: docs
 weight: 5
 ---

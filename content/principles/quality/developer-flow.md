@@ -1,5 +1,6 @@
 ---
 title: Developer Flow
+description: Fast feedback loops and low-friction workflows keep developers productive. How to protect flow and why it matters.
 type: docs
 weight: 4
 ---

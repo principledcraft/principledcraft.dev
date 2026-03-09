@@ -1,5 +1,6 @@
 ---
 title: What Makes a Good Test
+description: The qualities that separate useful tests from ones that waste time, including readability, determinism, and independence.
 type: docs
 weight: 3
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Test doubles: mocks, stubs, and fakes"
+description: When and how to use mocks, stubs, and fakes to isolate the code under test.
 type: docs
 weight: 3
 ---

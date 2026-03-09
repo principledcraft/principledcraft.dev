@@ -1,5 +1,6 @@
 ---
 title: Quality
+description: Why simplicity matters, what poor quality actually costs, and how to protect the developer experience that keeps teams productive.
 type: docs
 sidebar:
   open: true

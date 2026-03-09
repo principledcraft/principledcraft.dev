@@ -1,5 +1,6 @@
 ---
 title: Types of tests
+description: Unit, integration, and end-to-end tests, what each type covers and when to use them.
 type: docs
 weight: 2
 ---

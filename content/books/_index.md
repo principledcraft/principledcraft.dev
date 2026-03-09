@@ -1,5 +1,6 @@
 ---
 title: Books
+description: Software engineering books worth reading, with reflections on how they shaped my thinking about the craft.
 type: docs
 cascade:
   breadcrumbs: false

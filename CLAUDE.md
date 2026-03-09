@@ -3,9 +3,19 @@
 ## Writing Style
 - Never use em dashes (—). Use commas, semicolons, or restructure sentences instead.
 - Fix small, obvious typos (spelling, punctuation) without asking. Just fix them.
+- Use British English spelling and punctuation (e.g. "organise", "behaviour"). Commas and periods go outside closing quotation marks ("like this", not "like this,").
+- Always run the humanizer skill after writing or editing any content (prose, not code). Do this automatically without being asked.
 
 ## Workflow
 - After completing a set of related changes, suggest a commit with a message.
+- Do not add "Co-Authored-By" lines to commit messages.
+
+## SEO
+- Every content page must have a `description` field in its frontmatter for the meta description tag.
+- When creating new pages (blog posts, principles, books, etc.), always include a `description`.
+- When editing existing pages, check if a `description` is missing and add one if so.
+- Descriptions should be concise (under 160 characters ideally), summarise the page content, and avoid colons unless the YAML value is quoted.
+- Blog posts use `summary` for the blog listing; the `description` field takes priority for the meta tag. If only `summary` is set, Hextra falls back to it, so blog posts don't strictly need both.
 
 ## Project
 - Hugo site using the Hextra theme (v0.12.0)

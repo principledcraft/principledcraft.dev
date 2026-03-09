@@ -1,5 +1,6 @@
 ---
 title: Testing
+description: Principles for testing software well, from what makes a good test to structuring code so it is easy to test.
 type: docs
 sidebar:
   open: true

@@ -1,5 +1,6 @@
 ---
 title: Hextra Theme
+description: Principles, opinions, and resources for effective software engineering.
 layout: hextra-home
 ---
 

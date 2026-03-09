@@ -1,5 +1,6 @@
 ---
 title: Practical test tips
+description: Concrete tips for writing tests that are clearer, more maintainable, and easier to debug.
 type: docs
 weight: 2
 ---

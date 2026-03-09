@@ -1,5 +1,6 @@
 ---
 title: Anatomy of a test
+description: The Arrange-Act-Assert pattern and how a well-structured test is organised.
 type: docs
 weight: 1
 ---

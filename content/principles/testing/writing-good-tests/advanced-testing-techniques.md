@@ -1,5 +1,6 @@
 ---
 title: Advanced Testing Techniques
+description: Property-based testing, mutation testing, approval testing, and other techniques beyond standard unit tests.
 type: docs
 weight: 4
 ---

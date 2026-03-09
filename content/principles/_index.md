@@ -1,5 +1,6 @@
 ---
 title: Principles
+description: Principles for building software that stays simple, maintainable, and testable over time.
 type: docs
 sidebar:
   open: true

@@ -1,5 +1,6 @@
 ---
 title: Functional core, imperative shell
+description: Separate pure logic from side effects to make business rules easy to test without mocks.
 type: docs
 weight: 3
 ---

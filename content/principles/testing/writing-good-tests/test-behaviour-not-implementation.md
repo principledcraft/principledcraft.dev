@@ -1,5 +1,6 @@
 ---
 title: Test behaviour, not implementation
+description: Why tests should verify what code does, not how it does it, and how this makes tests resilient to refactoring.
 type: docs
 weight: 1
 ---

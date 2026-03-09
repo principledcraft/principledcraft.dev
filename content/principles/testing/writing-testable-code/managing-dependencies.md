@@ -1,5 +1,6 @@
 ---
 title: Managing dependencies in tests
+description: How to handle external dependencies like databases and APIs in tests using dependency injection and test doubles.
 type: docs
 weight: 2
 ---

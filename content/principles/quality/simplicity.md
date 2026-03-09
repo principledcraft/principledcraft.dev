@@ -1,5 +1,6 @@
 ---
 title: Simplicity
+description: Simplicity is prerequisite for reliability. KISS, YAGNI, and why every line of code is a liability.
 type: docs
 weight: 3
 ---

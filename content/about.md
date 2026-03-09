@@ -1,5 +1,6 @@
 ---
 title: About this site
+description: What this site is about, how to read it, and why it exists.
 type: about
 toc: false
 ---

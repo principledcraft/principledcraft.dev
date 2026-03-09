@@ -1,5 +1,6 @@
 ---
 title: The Cost of Poor Quality
+description: Poor code quality slows delivery, increases defects, and makes timelines unpredictable. The evidence and what to do about it.
 type: docs
 weight: 2
 ---

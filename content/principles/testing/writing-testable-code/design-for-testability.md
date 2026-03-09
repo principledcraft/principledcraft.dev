@@ -1,5 +1,6 @@
 ---
 title: Design for testability
+description: Code that is easy to test tends to be better code. Design patterns and practices that make testability a natural outcome.
 type: docs
 weight: 1
 ---

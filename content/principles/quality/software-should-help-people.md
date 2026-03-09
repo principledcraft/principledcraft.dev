@@ -1,5 +1,6 @@
 ---
 title: Software Should Help People
+description: Software exists to solve problems for people. Every technical decision should trace back to that purpose.
 type: docs
 weight: 1
 ---

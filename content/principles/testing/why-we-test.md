@@ -1,5 +1,6 @@
 ---
 title: Why We Test
+description: Tests enable fearless refactoring, document behaviour, and give confidence that changes work. What testing can and cannot tell you.
 type: docs
 weight: 1
 ---

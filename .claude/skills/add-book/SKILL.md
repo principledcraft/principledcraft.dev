@@ -27,6 +27,7 @@ Use this template for the page content:
 ```markdown
 ---
 title: {Book Title}
+description: {Concise summary for search engines, under 160 characters. e.g. "Reflections on A Philosophy of Software Design by John Ousterhout, covering complexity and why simple code matters."}
 type: docs
 ---
 

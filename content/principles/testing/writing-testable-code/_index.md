@@ -1,5 +1,6 @@
 ---
 title: Writing Testable Code
+description: How your code structure affects testability, covering dependency injection, dependency rejection, and functional core/imperative shell.
 type: docs
 weight: 4
 ---

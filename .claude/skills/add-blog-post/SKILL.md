@@ -42,6 +42,7 @@ The title and summary should work as hooks, not literal descriptions. Look at th
 ---
 title: {Hook-style title}
 date: {today's date in YYYY-MM-DD format}
+description: {Concise summary for search engines, under 160 characters. Different from the summary; this is factual and direct, not a hook.}
 summary: {2-3 sentence hook that draws the reader in, not a neutral abstract}
 authors:
   - name: PrincipledCraft
