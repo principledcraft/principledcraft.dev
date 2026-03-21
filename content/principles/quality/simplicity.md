@@ -17,7 +17,7 @@ Code is not an asset. It is a liability. Every line you write must be understood
 
 The less code you have, the fewer places bugs can hide and the easier the system is to understand. The goal is not to write as much code as possible. It is to solve the problem with as little code as is reasonable.
 
-This does not mean writing terse, clever code. Cramming logic into fewer characters is not simplicity; it is obfuscation. Simplicity means fewer concepts and fewer moving parts.
+This does not mean writing terse, clever code. Cramming logic into fewer characters is not simplicity; it is obfuscation. Simplicity means fewer concepts and fewer moving parts. But fewer lines is not always better either. A shorter codebase with scattered logic and cryptic naming can be harder to understand than a longer one with clear structure and well-placed comments. [Felienne Hermans](https://www.felienne.nl) shows in [The Programmer's Brain](/books/the-programmers-brain/) that what matters is cognitive load: how much effort the reader has to spend to form an accurate mental model. Simplicity, in this sense, is about designing for how people actually think.
 
 ## KISS
 

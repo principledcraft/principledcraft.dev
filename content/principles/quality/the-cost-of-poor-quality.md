@@ -29,6 +29,10 @@ Codebases work the same way. A poorly written module or a test suite that everyo
 
 The opposite is also true. When a codebase is well-maintained, developers feel responsibility to keep it that way. Standards are contagious in both directions.
 
+## Cognitive load
+
+Poor quality code is not only more likely to contain bugs, it is also harder to think about. [Felienne Hermans](https://www.felienne.nl) shows in [The Programmer's Brain](/books/the-programmers-brain/) that code smells directly increase cognitive load. A long parameter list overloads working memory. A god class prevents chunking, forcing the reader to process code line by line. Duplicate code that looks similar but behaves differently leads to wrong assumptions. The harder code is to reason about, the longer every change takes and the more likely it is to introduce new defects.
+
 ## Technical debt is a business concept
 
 [Ward Cunningham](https://en.wikipedia.org/wiki/Ward_Cunningham) originally used the term "technical debt" as a metaphor for business people: shipping imperfect code is like taking on debt. It lets you move faster now, but you pay interest on it until you pay it back.
