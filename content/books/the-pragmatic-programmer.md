@@ -4,7 +4,7 @@ type: docs
 ---
 
 <div class="book-card">
-  <imgI src="/images/books/the-pragmatic-programmer.jpg" alt="The Pragmatic Programmer cover">
+  <img src="/images/books/the-pragmatic-programmer.jpg" alt="The Pragmatic Programmer cover">
   <div>
 
 <p class="book-meta">David Thomas &amp; Andrew Hunt &nbsp;·&nbsp; Addison-Wesley &nbsp;·&nbsp; September 2019 &nbsp;·&nbsp; <a href="https://www.amazon.com/dp/0135957052">Available here</a></p>
