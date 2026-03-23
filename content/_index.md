@@ -1,5 +1,5 @@
 ---
-title: Hextra Theme
+title: principledcraft.dev
 description: Principles, opinions, and resources for effective software engineering.
 layout: hextra-home
 ---
