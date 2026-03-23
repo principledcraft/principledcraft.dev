@@ -13,6 +13,7 @@ A behaviour is an observable outcome: a return value, a state change, a message 
 
 {{< tabs >}}
 {{< tab name="Testing implementation" >}}
+
 ```python
 def test_calculate_total_uses_reduce():
     order = Order(items=[Item("Shirt", 50), Item("Socks", 10)])
@@ -21,14 +22,17 @@ def test_calculate_total_uses_reduce():
     assert order._subtotals == [50, 10]
     assert order._reduction_method == "sum"
 ```
+
 {{< /tab >}}
 {{< tab name="Testing behaviour" >}}
+
 ```python
 def test_calculate_total_sums_item_prices():
     order = Order(items=[Item("Shirt", 50), Item("Socks", 10)])
 
     assert order.total == 60
 ```
+
 {{< /tab >}}
 {{< /tabs >}}
 

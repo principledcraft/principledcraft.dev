@@ -14,10 +14,12 @@
         "esbenp.prettier-vscode",
         "tamasfe.even-better-toml",
         "budparr.language-hugo-vscode",
-        "anthropic.claude-code"
+        "anthropic.claude-code",
+        "DavidAnson.vscode-markdownlint"
       ]
     }
   },
+  "postCreateCommand": "npm install -g markdownlint-cli2",
   "forwardPorts": [
     1313
   ],

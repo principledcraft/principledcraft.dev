@@ -31,7 +31,7 @@ When two approaches solve the same problem and one is simpler, choose the simple
 
 "You Aren't Gonna Need It" is the principle that says: do not build things you do not need yet. Do not add a caching layer because you might need it someday. Do not create an abstraction for a pattern you have seen exactly once.
 
-Predictions about future requirements are usually wrong. When they are right, they are rarely right about the details. I have seen entire squads of development teams being told to start preparign for the next big paradigm shift due to 'Project X', only to see a huge amount of work wasted after 'Project X' is ultimately canceled due to scale up problems. 
+Predictions about future requirements are usually wrong. When they are right, they are rarely right about the details. I have seen entire squads of development teams being told to start preparign for the next big paradigm shift due to 'Project X', only to see a huge amount of work wasted after 'Project X' is ultimately canceled due to scale up problems.
 
 Build what is needed now, today, not a few months from now. When new requirements actually arrive, you will know more about what they look like and can build the right thing. Code that does not exist has no bugs and requires no maintenance.
 

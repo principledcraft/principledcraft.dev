@@ -11,6 +11,6 @@ type: docs
 
 A widely read book on writing code that is readable, maintainable, and professional. It covers naming, functions, comments, formatting, error handling, and more, always with the goal of writing code that communicates intent clearly to the next person who reads it.
 
-The book is opinionated and some of its advice has been debated over the years, but the core message holds: code is read far more often than it is written, and that should shape how it's crafted. 
+The book is opinionated and some of its advice has been debated over the years, but the core message holds: code is read far more often than it is written, and that should shape how it's crafted.
   </div>
 </div>

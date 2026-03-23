@@ -1,0 +1,5 @@
+# Line length - not useful for prose content
+MD013: false
+
+# Inline HTML - intentional for Hugo shortcodes and Hextra components
+MD033: false

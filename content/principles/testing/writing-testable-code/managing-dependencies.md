@@ -15,6 +15,7 @@ Dependency injection means passing dependencies into a function or class rather 
 
 {{< tabs >}}
 {{< tab name="Hidden dependency" >}}
+
 ```python
 class OrderService:
     def get_total(self, order_id):
@@ -22,8 +23,10 @@ class OrderService:
         order = db.get_order(order_id)
         return sum(item.price for item in order.items)
 ```
+
 {{< /tab >}}
 {{< tab name="Injected dependency" >}}
+
 ```python
 class OrderService:
     def __init__(self, db):
@@ -33,6 +36,7 @@ class OrderService:
         order = self.db.get_order(order_id)
         return sum(item.price for item in order.items)
 ```
+
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -58,6 +62,7 @@ The idea: push I/O and side effects to the edges. Keep the core logic pure.
 
 {{< tabs >}}
 {{< tab name="With dependency" >}}
+
 ```python
 class PricingService:
     def __init__(self, discount_repo):
@@ -67,12 +72,15 @@ class PricingService:
         discount = self.discount_repo.get_active_discount()
         return sum(i.price for i in order.items) * (1 - discount.rate)
 ```
+
 {{< /tab >}}
 {{< tab name="Dependency rejected" >}}
+
 ```python
 def calculate_total(items, discount_rate):
     return sum(i.price for i in items) * (1 - discount_rate)
 ```
+
 {{< /tab >}}
 {{< /tabs >}}
 

@@ -15,13 +15,13 @@ I'm still working out how to best work with AI tools. Most takes online split in
 
 It's also happy to be wrong. I've accepted suggestions that compiled, ran fine, and still introduced problems I wouldn't have written myself. It sounds sure of itself regardless of whether it's right, which makes it easy to stop checking.
 
-### The effect of principles
+## The effect of principles
 
 What made the difference was applying the same principled mindset that this site is all about. Not just *write me a test*, but *here's what a good test looks like, here are examples, here's the structure I expect*. Instead of plausible-looking output I had to rewrite, I started getting output I could actually use. After that, a rigorous review and back and forth, always followed by some manual edits.
 
 I keep coming back to the same thought: the craft is changing, but the [principles](/principles) aren't. Knowing what good code and tests look like, caring about simplicity and clarity; those things matter more when you have a tool that generates a lot of code quickly. AI doesn't have judgment of its own. It borrows yours.
 
-### Insights from others
+## Insights from others
 
 [Dave Farley](https://www.davefarley.net/) looked at this more rigorously in his [study of 150 developers using AI](https://www.youtube.com/watch?v=b9EbCb5A408). The finding that stuck with me: more experienced developers write more maintainable code with AI than those with less experience. AI amplifies whatever you're already doing. He also points out that when code is cheap to produce, being principled about engineering matters more than ever, since it's easy to produce a lot of unnecessary sloppy code.
 

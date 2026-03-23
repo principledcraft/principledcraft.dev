@@ -13,6 +13,7 @@ A test name should describe the behaviour being checked, not the method being ca
 
 {{< tabs >}}
 {{< tab name="Weak names" >}}
+
 ```python
 def test_calculate_shipping():
     ...
@@ -23,8 +24,10 @@ def test_calculate_shipping_2():
 def test_edge_case():
     ...
 ```
+
 {{< /tab >}}
 {{< tab name="Descriptive names" >}}
+
 ```python
 def test_shipping_is_free_when_order_exceeds_threshold():
     ...
@@ -35,6 +38,7 @@ def test_shipping_uses_flat_rate_below_threshold():
 def test_shipping_raises_error_for_negative_total():
     ...
 ```
+
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -46,6 +50,7 @@ When you're testing the same behaviour with different inputs, parameterized test
 
 {{< tabs >}}
 {{< tab name="Duplicated" >}}
+
 ```python
 def test_shipping_free_at_50():
     assert calculate_shipping(50.00) == 0
@@ -56,13 +61,16 @@ def test_shipping_free_at_75():
 def test_shipping_free_at_100():
     assert calculate_shipping(100.00) == 0
 ```
+
 {{< /tab >}}
 {{< tab name="Parameterized" >}}
+
 ```python
 @pytest.mark.parametrize("order_total", [50.00, 75.00, 100.00])
 def test_shipping_is_free_above_threshold(order_total):
     assert calculate_shipping(order_total) == 0
 ```
+
 {{< /tab >}}
 {{< /tabs >}}
 
@@ -74,6 +82,7 @@ Each test should create its own state from scratch. When tests share mutable sta
 
 {{< tabs >}}
 {{< tab name="Shared state" >}}
+
 ```python
 cart = Cart()  # shared across tests
 
@@ -85,8 +94,10 @@ def test_cart_total():
     # depends on test_add_item having run first
     assert cart.total == 50
 ```
+
 {{< /tab >}}
 {{< tab name="Independent" >}}
+
 ```python
 def test_add_item():
     cart = Cart()
@@ -98,6 +109,7 @@ def test_cart_total():
     cart.add(Item("Shirt", 50))
     assert cart.total == 50
 ```
+
 {{< /tab >}}
 {{< /tabs >}}
 

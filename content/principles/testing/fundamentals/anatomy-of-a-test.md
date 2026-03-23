@@ -34,6 +34,7 @@ When a test with clear phases fails, you can immediately see what was set up, wh
 
 {{< tabs >}}
 {{< tab name="Tangled" >}}
+
 ```python
 def test_order_processing():
     order = Order()
@@ -44,8 +45,10 @@ def test_order_processing():
     order.add_item(Item("Socks", price=10.00))
     assert order.total == 50.00
 ```
+
 {{< /tab >}}
 {{< tab name="Separated" >}}
+
 ```python
 def test_applying_discount_reduces_total():
     order = Order(items=[Item("Shirt", price=50.00)])
@@ -63,6 +66,7 @@ def test_adding_item_after_discount_uses_original_price():
 
     assert order.total == 50.00
 ```
+
 {{< /tab >}}
 {{< /tabs >}}
 
