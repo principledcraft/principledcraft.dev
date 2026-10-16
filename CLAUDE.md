@@ -18,9 +18,9 @@
 - Blog posts use `summary` for the blog listing; the `description` field takes priority for the meta tag. If only `summary` is set, Hextra falls back to it, so blog posts don't strictly need both.
 
 ## Project
-- Hugo site using the Hextra theme (v0.12.0)
+- Hugo site using the Hextra theme (v0.13.0)
 - After any content or config edit, run `hugo build` to verify the site builds without errors.
-- Theme module cache: `/root/.cache/hugo_cache/modules/filecache/modules/pkg/mod/github.com/imfing/hextra@v0.12.0/`
+- Theme module cache: `/root/.cache/hugo_cache/modules/filecache/modules/pkg/mod/github.com/imfing/hextra@v0.13.0/`
 
 ## References
 - Hextra theme docs: https://imfing.github.io/hextra/docs/

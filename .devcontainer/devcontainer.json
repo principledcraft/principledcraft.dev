@@ -1,9 +1,9 @@
 {
-  "image": "golang:1.26-bookworm",
+  "image": "golang:1.27-bookworm",
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
       "extended": true,
-      "version": "0.156.0"
+      "version": "0.168.0"
     },
     "ghcr.io/devcontainers/features/node:1": {}
   },
